@@ -12,7 +12,7 @@ spec:
       labels:
         app: backend-java
     imagePullSecrets: 
-    - name: acr-secret
+      - name: acr-secret
     spec:
       containers:
       - name: backend-java
