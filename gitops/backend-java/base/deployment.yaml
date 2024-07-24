@@ -16,6 +16,6 @@ spec:
       - name: acr-secret2
       containers:
       - name: backend-java
-        image: eduazureregistry.azurecr.io/backend-java:{{newTag}}
+        image: eduazrueregistry1002.azurecr.io/backend-java:{{newTag}}
         ports:
         - containerPort: 8080
