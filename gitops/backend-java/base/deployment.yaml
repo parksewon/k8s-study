@@ -11,7 +11,8 @@ spec:
     metadata:
       labels:
         app: backend-java
-    imagePullSecrets: acr-secret
+    imagePullSecrets: 
+    - name: acr-secret
     spec:
       containers:
       - name: backend-java
