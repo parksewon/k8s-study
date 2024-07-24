@@ -13,7 +13,7 @@ spec:
         app: backend-java
     spec:
       imagePullSecrets: 
-        - name: acr-secret
+        - name: acr-secret2
       containers:
       - name: backend-java
         image: eduazureregistry.azurecr.io/backend-java:{{newTag}}
