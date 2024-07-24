@@ -9,7 +9,7 @@ on:
         default: "main"
 
 permissions:
-  contents: write a repo write permission update
+  contents: write
         
 jobs:
   build-and-push-backend-java-dev:
